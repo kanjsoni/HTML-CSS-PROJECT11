@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.logo{
+height: 3rem;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: grey;
+}
+.list-item{
+    color: black;
+}
+
+.button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    background: linear-gradient( white , white) padding-box, linear-gradient(50deg, blue, rgb(57, 205, 239))border-box;
+    border: 3px solid transparent;
+    font-size: 1.2rem;
+    align-items: center;
+    color: aqua;
+    font-weight: 700;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+}
+.heropart1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: inline;
+    width: 40%;
+    align-items: center;
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.heropart1 h1{
+    color: black;
+    font-size: 3.5rem;
+    
+}
+.heropart1 p{
+    margin-top: 3rem;
+    color: grey;
+    font-size: 1.5rem;
+
+}
+.btn{
+    margin-top: 3rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background : linear-gradient(60deg, rgb(0, 157, 255), rgb(0, 217, 255));
+    border: 3px solid;
+    text-decoration: none;
+    font-size: 1.2rem;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 500
+}
+
+.heropart1 img{
+    margin-top: 5rem;
+    height: 450px;
+    margin-right: 2rem;
+    
+}
+
+.heropart2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.heropart2 img{
+    margin-top: 5rem;
+    height: 450px;  
+}
+.right{
+    display: inline;
+    width: 40%;
+    align-items: center;
+    text-align: left;
+    margin-right: 2rem;
+    margin-top: 5rem;
+}
+.heropart2 h1{
+    color: black;
+    font-size: 3.5rem;
+}
+.heropart2 p{
+    margin-top: 3rem;
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.heropart3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left{
+    display: inline;
+    width: 40%;
+    align-items: center;
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.heropart3 h1{
+    color: black;
+    font-size: 3.5rem;
+    
+}
+.heropart3 p{
+    margin-top: 3rem;
+    color: grey;
+    font-size: 1.5rem;
+
+}
+.heropart3 img{
+    margin-top: 5rem;
+    height: 600px;
+    margin-right: 2rem;
+    
+}
+.heropart4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heropart4 h1{
+    color: black;
+    font-size: 3.5rem;
+    
+}
+
+.heropart4 p{
+    margin-top: 3rem;
+    color: grey;
+    font-size: 1.5rem;
+    
+}
+
+
