@@ -25,6 +25,7 @@ height: 3rem;
 }
 .list-item{
     color: black;
+    font-size: 1.2rem;
 }
 
 .button{
@@ -272,11 +273,11 @@ height: 3rem;
     font-weight: 600;
     margin-top: 2rem;
     margin-left: 2.2rem;
+    margin-bottom: 2rem;
 }
 .pricecard2{
     margin-top: 1.5rem;
     background-color: #ffffff;
-    padding: 15px 25px;
     border-radius: 10px;
 }
 .cardhead2{
@@ -295,7 +296,12 @@ height: 3rem;
     margin-top: 7px;
     font-size: 0.6rem;
  }
-
+ .check1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: green;
+    font-size: 12px;
+ }
  .btn2{
     margin-top: 3rem;
     padding: 10px 20px;
@@ -308,6 +314,144 @@ height: 3rem;
     align-items: center;
     color: #ffffff;
     font-weight: 500;
-    margin-left: 2.2rem;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.cardsection{
+    align-items: center;
+    margin-top: 5rem;
+
+}
+.card-heading h2{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-heading p{
+    color: grey;
+    font-size: 0.7rem;
+    margin-top: 0.8rem;
+    text-align: center;
+}
+
+.cardline{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 15px 25px;
+}
+
+.card{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 40%;
+}
+.cards{
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+}
+.author{
+    display: flex;
+    margin-top: 2rem;
+}
+.author img{
+    height: 3rem;
+}
+
+.author-detail{
+    margin-left: 10px;
+    display: inline;
+}
+.author-detail h3{
+    font-size: 1.2rem;
+    color: #000000;
+}
+.author-detailp{
+    font-size: 5px;
+    margin-top: 5px;
+    color: #272626;
+}
+
+.register{
+    background-image: url(./assets/footer-bg.svg);
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.fleft{
+    margin-top: 5rem;
+    color: #ffffff;
+    margin-left: 5rem;
+    width: 30%;
+}
+.fleft h3{
+    font-size: 2rem;
+   
+}
+.fleft p{
+    margin-top: 2rem;
+    font-size: 10px;
+    margin-bottom: 2rem;
+}
+
+.fright{
+    margin-right: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 2rem;
+
+}
+
+.footer-left img{
+    height: 3rem ;
+}
+ .footer-left p{
+    margin-top: 1rem;
+    color: #656464;
+    font-size: 12px;
+    width: 30vh;
  }
 
+.footer-mid{
+    
+    justify-content: space-between;
+    display: flex;
+    gap: 4rem;
+    color: #6a6969;
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.footer-list{
+    list-style: none;
+}
+
+.footer-right{
+    align-items: center;
+    margin-right: 2rem;
+}
+.footer-right h3{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    height: 2rem;
+}
