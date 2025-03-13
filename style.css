@@ -28,6 +28,15 @@ height: 3rem;
     font-size: 1.2rem;
 }
 
+.menu{
+    display: none;
+  }
+  nav .menu .ham{
+    color: #000000;
+    text-decoration: none;
+    font-size: 3rem;
+  }
+
 .button{
     padding: 10px 20px;
     border-radius: 10px;
@@ -50,25 +59,25 @@ height: 3rem;
 }
 .left{
     display: inline;
-    width: 40%;
+   
     align-items: center;
     text-align: left;
     margin-left: 5rem;
     margin-top: 5rem;
 }
-.heropart1 h1{
+.heading{
     color: black;
     font-size: 3.5rem;
     
 }
-.heropart1 p{
+#para{
     margin-top: 3rem;
     color: grey;
     font-size: 1.5rem;
 
 }
 .btn{
-    margin-top: 3rem;
+   
     padding: 10px 20px;
     border-radius: 10px;
     background : linear-gradient(60deg, rgb(0, 157, 255), rgb(0, 217, 255));
@@ -81,20 +90,14 @@ height: 3rem;
     font-weight: 500;
 }
 
-.heropart1 img{
+#image{
     margin-top: 5rem;
     height: 450px;
     margin-right: 2rem;
     
 }
 
-.heropart2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.heropart2 img{
+#image{
     margin-top: 5rem;
     height: 400px;  
 }
@@ -106,22 +109,6 @@ height: 3rem;
     margin-right: 2rem;
     margin-top: 5rem;
 }
-.heropart2 h1{
-    color: black;
-    font-size: 3.5rem;
-}
-.heropart2 p{
-    margin-top: 3rem;
-    color: grey;
-    font-size: 1.5rem;
-}
-
-.heropart3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
 
 .left{
     display: inline;
@@ -131,38 +118,11 @@ height: 3rem;
     margin-left: 5rem;
     margin-top: 5rem;
 }
-.heropart3 h1{
-    color: black;
-    font-size: 3.5rem;
-    
-}
-.heropart3 p{
-    margin-top: 3rem;
-    color: grey;
-    font-size: 1.5rem;
 
-}
-.heropart3 img{
+#image{
     margin-top: 5rem;
     height: 600px;
     margin-right: 2rem;
-    
-}
-.heropart4 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.heropart4 h1{
-    color: black;
-    font-size: 3.5rem;
-    
-}
-
-.heropart4 p{
-    margin-top: 3rem;
-    color: grey;
-    font-size: 1.5rem;
     
 }
 
@@ -174,11 +134,13 @@ height: 3rem;
     
 }
 .smallcards{
-    align-items: flex-start;
-    padding: 30px 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px ;
+    width: 290px;
     border-radius: 10%;
     text-align: justify;
-    background-color: #ffffff;
+    background-color: #f5f3f3;
 }
 .smallcards h2{
     margin-top: 1rem;
@@ -346,12 +308,11 @@ height: 3rem;
 }
 
 .card{
-    margin-left: 4rem;
-    margin-right: 4rem;
+   
     padding: 20px 30px;
     border-radius: 10px;
     background-color: whitesmoke;
-    width: 40%;
+    
 }
 .cards{
     font-size: 16px;
@@ -370,12 +331,12 @@ height: 3rem;
     margin-left: 10px;
     display: inline;
 }
-.author-detail h3{
+#chead{
     font-size: 1.2rem;
     color: #000000;
 }
-.author-detailp{
-    font-size: 5px;
+.author-detail p{
+    font-size: 10px;
     margin-top: 5px;
     color: #272626;
 }
@@ -455,3 +416,184 @@ height: 3rem;
     gap: 1.5rem;
     height: 2rem;
 }
+
+@media (max-width:450px) {
+    .navbar{
+        flex-direction: row;
+    }
+    .nav-list{
+        display: none;
+    }
+    .navbar .menu{
+        display: flex;
+    }
+    .hero-section{
+        flex-direction: column;
+    
+    }
+    .heropart1{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    #image{
+        height: 200px;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    #para{
+        font-size: 12px;
+    }
+    .smallcard{
+        flex-direction: column;
+        justify-content: center; 
+
+    }
+    
+    .smallcards p{
+        font-size: 8px;
+        margin-top: 3px;
+    }
+    .smallcards h2{
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .smallcards img{
+        height: 1rem;
+    }
+
+    .pricing{
+        flex-direction: column;
+    }
+    .price h2{
+        font-size: 2rem;
+    }
+    .cardline{
+        flex-direction: column;
+    }
+
+    #cardimg{
+        height: 20px;
+    }
+    #chead{
+        font-size: 10px;
+    }
+    .register{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .register .fleft{
+        margin: 10px;
+        width: 100%;
+    }
+    .register .btn{
+        margin-left: 1rem;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-mid{
+        flex-direction: column;
+    }
+    
+}
+
+@media (min-width:451px) {
+    .navbar{
+        flex-direction: row;
+        font-size: 10px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .navbar .menu{
+        display: flex;
+    }
+
+    .hero-section{
+        flex-direction: column;
+    
+    }
+    .heropart1{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    #image{
+        height: 300px;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    #para{
+        font-size: 15px;
+    }
+    .smallcard{
+        flex-direction: column;
+        justify-content: center; 
+
+    }
+    
+    .smallcards p{
+        font-size: 8px;
+        margin-top: 3px;
+    }
+    .smallcards h2{
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .smallcards img{
+        height: 1rem;
+    }
+
+    .pricing{
+        flex-direction: column;
+    }
+    .price h2{
+        font-size: 2rem;
+    }
+    .cardline{
+        flex-direction: column;
+    }
+
+    #cardimg{
+        height: 20px;
+    }
+    #chead{
+        font-size: 10px;
+    }
+    .register{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .register .fleft{
+        margin: 10px;
+        width: 100%;
+    }
+    .register .btn{
+        margin-left: 1rem;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-mid{
+        flex-direction: column;
+    }
+    
+}
+
+@media (min-width:700px) {
+    .navbar{
+        flex-direction: row;
+        font-size: 10px;
+    }
+    .nav-list{
+        display: flex;
+        font-size: 10px;
+    }
+    .navbar .menu{
+        display: none;
+    }
+}
+
