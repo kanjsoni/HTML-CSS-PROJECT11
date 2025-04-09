@@ -414,9 +414,3 @@ a{
     
 }
 
-@media (max-width :1024px) {
-
-    .ham{
-        display: none;
-    }
-}
